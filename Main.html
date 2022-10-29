@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>RBLX Predictor</title>
+    <script src="MinesPredictor.js" charset="utf-8"></script>
+    <style media="screen">
+      .MPD {
+        text-align: center;
+        background: rgba(153, 255, 153, 0.4);
+        background-size: 50% 50%;
+        height: 800px;
+        border-radius: 5px;
+        border: 5px dashed black;
+      }
+      .MPDS {
+        text-align: center;
+        background: rgba(204, 0, 204, .4);
+        border: 5px dashed black;
+        height: 550px;
+        width: 550px;
+        border-radius: 50px;
+      }
+      body {
+        text-align: center;
+        background-image: url('assets/background.png');
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        background-size: 100% 200%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="GameBackground">
+      <div class="MPD">
+        <input type="Hash" name="hashValue" value="Input hash here!">
+        <input type="BombInt" name="BombCount" value="Input Bomb count here!">
+        <button name="startPre">Predict Mines</button>
+        <div class="MPDS" align="right">
+
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
